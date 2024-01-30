@@ -1,0 +1,52 @@
+$secondary-color: #141a33;
+$primary-color: #F48023;
+$white-one: #fcfcfc;
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 57px;
+    background-color: #F48023;
+    height: auto;
+}
+
+a.active{
+    background: $secondary-color;
+}
+
+a{
+    font-weight: 300px;
+    font-size: 15px;
+    border-radius: 0px;
+    color: $white-one;
+}
+
+a.ant-btn{
+    &:hover{
+        color: $white-one;
+        background: $secondary-color;
+    }
+}
+
+img{
+    width: 180px;
+}
+
+.img_profile{
+    width: 25px;
+}
+
+.active-button{
+    border-radius: 0px !important;
+    padding: 2px 5px !important;
+    background: $secondary-color;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background: #F48023;
+}
